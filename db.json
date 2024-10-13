@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "/images/appleSmallWatch.png",
+      "productName": "Apple Watch Series 4",
+      "category": "Digital Product",
+      "price": 690.0,
+      "piece": 63,
+      "availableColors": ["black", "gray", "pink"]
+    },
+    {
+      "id": 2,
+      "image": "/images/headset.png",
+      "productName": "Microsoft Headsquare",
+      "category": "Digital Product",
+      "price": 190.0,
+      "piece": 13,
+      "availableColors": ["black", "pink", "blue", "yellow"]
+    },
+    {
+      "id": 3,
+      "image": "/images/womandress.png",
+      "productName": "Women's Dress",
+      "category": "Fashion",
+      "price": 640.0,
+      "piece": 635,
+      "availableColors": ["maroon", "blue", "black", "purple"]
+    },
+    {
+      "id": 4,
+      "image": "/images/samsung.png",
+      "productName": "Samsung A50",
+      "category": "Mobile",
+      "price": 400.0,
+      "piece": 67,
+      "availableColors": ["blue", "black", "maroon"]
+    },
+    {
+      "id": 5,
+      "image": "/images/camera.png",
+      "productName": "Camera",
+      "category": "Electronic",
+      "price": 420.0,
+      "piece": 52,
+      "availableColors": ["blue", "black", "maroon"]
+    },
+    {
+      "id": 6,
+      "image": "/images/headset.png",
+      "productName": "Microsoft Headsquare",
+      "category": "Digital Product",
+      "price": 190.0,
+      "piece": 13,
+      "availableColors": ["black", "pink", "blue", "yellow"]
+    },
+    {
+      "id": 7,
+      "image": "/images/womandress.png",
+      "productName": "Women's Dress",
+      "category": "Fashion",
+      "price": 640.0,
+      "piece": 635,
+      "availableColors": ["maroon", "blue", "black", "purple"]
+    }
+  ],
+  "favourites": [
+    {
+      "id": "1",
+      "name": "Apple Watch Series 4",
+      "price": 120.0,
+      "image": "/images/applewatch.png",
+      "rating": 4.5,
+      "reviewCount": 131,
+      "isFavorite": true
+    },
+    {
+      "id": "2",
+      "name": "Air-Max-270",
+      "price": 60.0,
+      "image": "/images/applewatch.png",
+      "rating": 4,
+      "reviewCount": 64,
+      "isFavorite": false
+    },
+    {
+      "id": "2",
+      "name": "Air-Max-270",
+      "price": 24.59,
+      "image": "/images/applewatch.png",
+      "rating": 4,
+      "reviewCount": 63,
+      "isFavorite": false
+    },
+    {
+      "id": "2",
+      "name": "Amazfit Vip",
+      "price": 60.0,
+      "image": "/images/applewatch.png",
+      "rating": 4,
+      "reviewCount": 64,
+      "isFavorite": false
+    },
+    {
+      "id": "2",
+      "name": "Gumbo Mouse",
+      "price": 60.0,
+      "image": "/images/applewatch.png",
+      "rating": 4,
+      "reviewCount": 64,
+      "isFavorite": false
+    },
+    {
+      "id": "2",
+      "name": "Camera Tripod",
+      "price": 60.0,
+      "image": "/images/applewatch.png",
+      "rating": 4,
+      "reviewCount": 64,
+      "isFavorite": false
+    }
+  ]
+}
