@@ -1,83 +1,115 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "image": "/images/appleSmallWatch.png",
       "productName": "Apple Watch Series 4",
       "category": "Digital Product",
-      "price": 690.0,
+      "price": 690,
       "piece": 63,
-      "availableColors": ["black", "gray", "pink"]
+      "availableColors": [
+        "black",
+        "gray",
+        "pink"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "/images/headset.png",
       "productName": "Microsoft Headsquare",
       "category": "Digital Product",
-      "price": 190.0,
+      "price": 190,
       "piece": 13,
-      "availableColors": ["black", "pink", "blue", "yellow"]
+      "availableColors": [
+        "black",
+        "pink",
+        "blue",
+        "yellow"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "/images/womandress.png",
       "productName": "Women's Dress",
       "category": "Fashion",
-      "price": 640.0,
+      "price": 640,
       "piece": 635,
-      "availableColors": ["maroon", "blue", "black", "purple"]
+      "availableColors": [
+        "maroon",
+        "blue",
+        "black",
+        "purple"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "/images/samsung.png",
       "productName": "Samsung A50",
       "category": "Mobile",
-      "price": 400.0,
+      "price": 400,
       "piece": 67,
-      "availableColors": ["blue", "black", "maroon"]
+      "availableColors": [
+        "blue",
+        "black",
+        "maroon"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "/images/camera.png",
       "productName": "Camera",
       "category": "Electronic",
-      "price": 420.0,
+      "price": 420,
       "piece": 52,
-      "availableColors": ["blue", "black", "maroon"]
+      "availableColors": [
+        "blue",
+        "black",
+        "maroon"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "/images/headset.png",
       "productName": "Microsoft Headsquare",
       "category": "Digital Product",
-      "price": 190.0,
+      "price": 190,
       "piece": 13,
-      "availableColors": ["black", "pink", "blue", "yellow"]
+      "availableColors": [
+        "black",
+        "pink",
+        "blue",
+        "yellow"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "/images/womandress.png",
       "productName": "Women's Dress",
       "category": "Fashion",
-      "price": 640.0,
+      "price": 640,
       "piece": 635,
-      "availableColors": ["maroon", "blue", "black", "purple"]
+      "availableColors": [
+        "maroon",
+        "blue",
+        "black",
+        "purple"
+      ]
     }
   ],
-  "favourites": [
+  "favorites": [
     {
       "id": "1",
       "name": "Apple Watch Series 4",
-      "price": 120.0,
+      "price": 120,
       "image": "/images/applewatch.png",
       "rating": 4.5,
       "reviewCount": 131,
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "2",
       "name": "Air-Max-270",
-      "price": 60.0,
+      "price": 60,
       "image": "/images/applewatch.png",
       "rating": 4,
       "reviewCount": 64,
@@ -95,7 +127,7 @@
     {
       "id": "2",
       "name": "Amazfit Vip",
-      "price": 60.0,
+      "price": 60,
       "image": "/images/applewatch.png",
       "rating": 4,
       "reviewCount": 64,
@@ -104,7 +136,7 @@
     {
       "id": "2",
       "name": "Gumbo Mouse",
-      "price": 60.0,
+      "price": 60,
       "image": "/images/applewatch.png",
       "rating": 4,
       "reviewCount": 64,
@@ -113,7 +145,7 @@
     {
       "id": "2",
       "name": "Camera Tripod",
-      "price": 60.0,
+      "price": 60,
       "image": "/images/applewatch.png",
       "rating": 4,
       "reviewCount": 64,

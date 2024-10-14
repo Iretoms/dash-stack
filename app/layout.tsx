@@ -1,15 +1,14 @@
 import "./globals.css";
+import ReduxProvider from "@/components/providers/ReduxProvider";
 
 import type { Metadata } from "next";
 import { Nunito_Sans } from "next/font/google";
-
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
   subsets: ["latin"],
   display: "swap",
 });
-
 
 export const metadata: Metadata = {
   title: "DashStack",
@@ -24,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${nunitoSans.variable} font-sans antialiased`}>
-        {children}
+        <ReduxProvider>{children}</ReduxProvider>
       </body>
     </html>
   );
