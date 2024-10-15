@@ -15,18 +15,18 @@ const Favourite = () => {
   if (isLoading) return <p>Loading...</p>;
   if (isError) {
     console.log(error);
-    return <p>There was an a error</p>;
+    return <p>There was an error</p>;
   }
 
   return (
-    <div className="h-[100%] overflow-y-auto pb-8">
+    <>
       <h1 className="pt-6 text-dark-text text-3xl font-bold">Favorites</h1>
       <section className="grid grid-cols-3 gap-4 mt-6">
         {favorites.map((favorite: Favorite) => (
           <Card key={favorite.id} favorite={favorite} />
         ))}
       </section>
-    </div>
+    </>
   );
 };
 
