@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Button } from "../ui/button";
 import {
   ColumnDef,
   flexRender,
@@ -94,7 +96,10 @@ function ProductsTable<TData extends Product, TValue>({
               {table.getHeaderGroups().map((headerGroup) => (
                 <TableRow key={headerGroup.id}>
                   {headerGroup.headers.map((header) => (
-                    <TableHead className="font-bold" key={header.id}>
+                    <TableHead
+                      className="font-bold text-dark-text"
+                      key={header.id}
+                    >
                       {header.isPlaceholder
                         ? null
                         : flexRender(
@@ -108,6 +113,27 @@ function ProductsTable<TData extends Product, TValue>({
             </TableHeader>
             <TableBody>{renderContent()}</TableBody>
           </Table>
+        </div>
+        <div className="flex items-center justify-between space-x-2 py-4">
+          <p className="text-sm">Showing 1-09 of 78</p>
+          <div className="flex items-center py-3">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => table.previousPage()}
+              disabled={!table.getCanPreviousPage()}
+            >
+              <ChevronLeft size={14} />
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => table.nextPage()}
+              disabled={!table.getCanNextPage()}
+            >
+              <ChevronRight size={14} />
+            </Button>
+          </div>
         </div>
       </section>
     </>
