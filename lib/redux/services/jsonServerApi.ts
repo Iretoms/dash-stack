@@ -4,7 +4,8 @@ import { Product, Favorite } from '@/lib/types'
 export const jsonServerApi = createApi({
     reducerPath: 'jsonServerApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:3001',
+        baseUrl: 'https://json-server-echb.onrender.com',
+        // baseUrl: 'http://localhost:3001',
     }),
     endpoints: (builder) => ({
         getProducts: builder.query<Product[], void>({
