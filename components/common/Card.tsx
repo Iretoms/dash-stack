@@ -46,10 +46,10 @@ const Card: React.FC<CardProps> = ({ favorite }) => {
           <ChevronRight className="text-gray-2" />
         </div>
       </div>
-      <div className="px-4 py-6 flex flex-col gap-2">
+      <div className="px-4 py-6 md:py-4 lg:px-4 lg:py-6 flex flex-col gap-2">
         <div className="flex items-center justify-between">
           <div>
-            <p className="font-bold text-base">{favorite.name}</p>
+            <p className="font-bold text-base md:text-sm lg:text-base">{favorite.name}</p>
             <p className="font-bold text-primary text-sm">
               ${`${favorite.price}`}
             </p>

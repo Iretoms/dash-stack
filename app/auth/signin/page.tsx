@@ -49,9 +49,9 @@ const SignIn = () => {
   }
 
   return (
-    <div className="bg-white w-full max-w-md px-10 py-16 rounded-2xl mx-auto shadow-lg">
+    <div className="bg-white w-full max-w-md px-6 md:px-10 py-16 rounded-2xl mx-auto md:shadow-lg">
       <h1 className="font-bold text-3xl text-center mb-2">Login to Account</h1>
-      <p className="text-center">
+      <p className="text-center text-sm md:text-base">
         Please enter your email and password to continue
       </p>
 

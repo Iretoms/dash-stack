@@ -21,7 +21,7 @@ const Favourite = () => {
   return (
     <>
       <h1 className="pt-6 text-dark-text text-3xl font-bold">Favorites</h1>
-      <section className="grid grid-cols-3 gap-4 mt-6">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
         {favorites.map((favorite: Favorite) => (
           <Card key={favorite.id} favorite={favorite} />
         ))}

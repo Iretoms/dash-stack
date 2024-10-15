@@ -8,7 +8,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       <Sidebar />
       <section className="flex-1">
         <Navbar />
-        <main className="bg-gray-1 h-[calc(100vh-70px)] px-5">
+        <main className="bg-gray-1 lg:h-[calc(100vh-70px)] px-5 pt-20 lg:py-0">
           <div className="h-[100%] overflow-y-auto pb-8">{children}</div>
         </main>
       </section>

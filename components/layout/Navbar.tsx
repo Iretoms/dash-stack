@@ -3,9 +3,12 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <header className="h-[70px] flex items-center px-5 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-20 bg-white lg:static h-[70px] flex items-center px-5 shadow-sm">
       <nav className="w-full flex justify-between items-center">
-        <div className="flex items-center gap-6">
+        <h1 className="font-bold text-xl lg:hidden">
+          <span className="text-primary">Dash</span>Stack
+        </h1>
+        <div className="items-center gap-6 hidden lg:flex">
           <div className="cursor-pointer">
             <Image
               src="/images/menuBar.svg"
@@ -28,7 +31,10 @@ const Navbar = () => {
             />
           </div>
         </div>
-        <div className="flex items-center gap-7">
+        <div className="cursor-pointer lg:hidden">
+          <Image src="/images/menuBar.svg" alt="menu" width={30} height={30} />
+        </div>
+        <div className="lg:flex items-center gap-7 hidden">
           <div className="flex items-center relative">
             <Image src="/images/bell.svg" alt="bell" width={25} height={25} />
             <span className="text-white text-xs bg-noti-red h-5 w-5 rounded-full flex justify-center items-center absolute -top-2 -right-2">
